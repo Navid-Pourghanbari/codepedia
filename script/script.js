@@ -13,7 +13,7 @@ const navLinksContainer = document.querySelectorAll(
 );
 
 let btnState = 0;
-const randomNumber = () => Math.trunc(Math.random() * 18) + 1;
+const randomNumber = () => Math.trunc(Math.random() * 3) + 1;
 
 let imgNumber = randomNumber();
 
@@ -25,7 +25,7 @@ changeIMG();
 
 btnNext.addEventListener(`click`, () => {
   imgNumber++;
-  if (imgNumber <= 18) {
+  if (imgNumber <= 3) {
     changeIMG();
   } else {
     imgNumber = 1;
@@ -38,7 +38,7 @@ btnBack.addEventListener(`click`, () => {
   if (imgNumber >= 1) {
     changeIMG();
   } else {
-    imgNumber = 18;
+    imgNumber = 3;
     changeIMG();
   }
 });
