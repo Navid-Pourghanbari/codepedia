@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css//font-icon.css" />
+    <title>CodePedia | Everything related to Web Development</title>
+  </head>
+  <body class="main-page">
+    <div class="overlay hidden"></div>
+    <section class="section-content hidden">
+      <ul class="section-content__btns">
+        <li class="section-content__btn section-content__btn--full"><i class="fa-solid fa-expand"></i></li>
+        <li class="section-content__btn section-content__btn--close"><i class="fa-solid fa-close"></i></li>
+      </ul>
+      <iframe name="content" class="content" src="" frameborder="0"> </iframe>
+    </section>
+
+    <header class="main-header">
+      <nav class="navigation">
+        <div class="navigation__logo-box">
+          <img
+            class="navigation__logo"
+            src="img/logo02.png"
+            alt="codePedia logo"
+          />
+          <h3 class="heading-tertiary ">CodePedia</he>
+        </div>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Tutorials</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">About me</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Sign up</a>
+            </li>
+          </ul>
+        <div class="search-box">
+          <input class="search" type="text" placeholder="Search" />
+          <button class="search__btn fa-solid fa-magnifying-glass"></button>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main__bg">
+      </div>
+      <!-- <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/bg/bg-video04.mp4">
+        </video>
+      </div> -->
+      <div class="main__nav-box">
+        <div class="nav-bar">
+          <div class="nav-bar__slider nav-bar__slider--up">
+            <i class="fa-solid fa-angle-double-up"></i>
+          </div>
+          <div class="nav-bar__slider nav-bar__slider--down">
+            <i class="fa-solid fa-angle-double-down"></i>
+          </div>
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item  fa-solid fa-file-code"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--html">
+              <a class="nav-bar__links" href="pages/js_topic_01.html" target="content">1- HTML High-Level Overview</a>
+              <a class="nav-bar__links" href="pages/js_topic_02.html" target="content">2- HTML Engine And Runtime</a>
+            </div>
+            <li class="nav-bar__item fa-brands fa-css3-alt"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--css">
+              <a class="nav-bar__links" href="pages/css/css_topic_01.html" target="content">1- CSS Properties</a>
+              <a class="nav-bar__links" href="pages/js_topic_02.html" target="content">2- CSS Engine And Runtime</a>
+            </div>
+            <li class="nav-bar__item fa-brands fa-sass"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--sass">
+              <a class="nav-bar__links" href="pages/js_topic_01.html" target="content">1- sass High-Level Overview</a>
+              <a class="nav-bar__links" href="pages/js_topic_02.html" target="content">2- sass Engine And Runtime</a>
+            </div>
+            <li class="nav-bar__item fa-brands fa-js"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--js">
+              <a class="nav-bar__links" href="pages/js/js_topic_01.html" target="content">1- JS High-Level Overview</a>
+              <a class="nav-bar__links" href="pages/js/js_topic_02.html" target="content">2- JS Engine And Runtime</a>
+            </div>
+            <li class="nav-bar__item fa-brands fa-node"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--node">
+              <a class="nav-bar__links" href="pages/js_topic_01.html" target="content">1- Node High-Level Overview</a>
+              <a class="nav-bar__links" href="pages/js_topic_02.html" target="content">2- Node Engine And Runtime</a>
+            </div>
+            <li class="nav-bar__item fa-brands fa-node-js"></li>
+            <div class="nav-bar__links-container nav-bar__links-container--express">
+              <a class="nav-bar__links" href="pages/js_topic_01.html" target="content">1- Express High-Level Overview</a>
+              <a class="nav-bar__links" href="pages/js_topic_02.html" target="content">2- Express Engine And Runtime</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="main__buttons-box">
+        <div class="bg-switch">
+          <ul class="bg-switch__items">
+            <li class="bg-switch__previous"><i class="fa-solid fa-caret-left"></i></li>
+            <li class="bg-switch__random"><i class="fa-solid fa-shuffle"></i></li>
+            <li class="bg-switch__next"><i class="fa-solid fa-caret-right"></i></li>
+
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul class="footer_list">
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+      <p>&copy; Navid Pourghanbari 2022</p>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
